@@ -1,4 +1,4 @@
-module github.com/abema/go-mp4
+module github.com/AviParampampam/go-mp4
 
 go 1.14
 

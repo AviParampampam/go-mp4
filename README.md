@@ -67,24 +67,10 @@ func (*Xxxx) GetType() BoxType {
 }
 ```
 
-## Command Line Tool
+## Install
 
-Install mp4tool as follows:
+Install go-mp4 as follows:
 
 ```sh
-go get github.com/abema/go-mp4/mp4tool
-
-mp4tool -help
-```
-
-For example, `mp4tool dump MP4_FILE_NAME` command prints MP4 box tree as follows:
-
-```
-[moof] Size=504
-  [mfhd] Size=16 Version=0 Flags=0x000000 SequenceNumber=1
-  [traf] Size=480
-    [tfhd] Size=28 Version=0 Flags=0x020038 TrackID=1 DefaultSampleDuration=9000 DefaultSampleSize=33550 DefaultSampleFlags=0x1010000
-    [tfdt] Size=20 Version=1 Flags=0x000000 BaseMediaDecodeTimeV1=0
-    [trun] Size=424 ... (use -a option to show all)
-[mdat] Size=44569 Data=[...] (use -mdat option to expand)
+go get github.com/AviParampampam/go-mp4
 ```
